@@ -8,7 +8,7 @@ const todoReducer = (state = initialState, action) => {
   switch(action.type) {
     case ADD_TODO:
       return {
-        ...state,s
+        ...state,
         todos: [...state.todos, action.payload]
       };
     case TOGGLE_TODO:
